@@ -1,3 +1,6 @@
+```mermaid
+
+
 flowchart TD
     User([User]) --> WebChat["Web Chat · :3000"]
     WebChat --> GW
@@ -110,3 +113,4 @@ flowchart TD
     AG -->|"admission decisions + spans"| OTEL
     TW -->|"workflow spans"| OTEL
     OTEL --> Backend
+```
